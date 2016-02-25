@@ -156,7 +156,7 @@ CREATE TABLE `users_table` (
 
 LOCK TABLES `users_table` WRITE;
 /*!40000 ALTER TABLE `users_table` DISABLE KEYS */;
-INSERT INTO `users_table` VALUES (1,'lexx','whylexx','system',1001,4000,'/ftp','/sbin/nologin',1452769853,26,1451043608,12,NULL,0,0);
+INSERT INTO `users_table` VALUES (1,'lexx','111111','system',1001,4000,'/ftp','/sbin/nologin',1452769853,26,1451043608,12,NULL,0,0);
 /*!40000 ALTER TABLE `users_table` ENABLE KEYS */;
 UNLOCK TABLES;
 
