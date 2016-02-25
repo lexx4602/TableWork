@@ -26,13 +26,13 @@ class Routing
         $controllerName = 'Controller_' . $controllerName;
         $actionName = 'action_' . $actionName;
         $fileWithModel = strtolower($modelName) . 'php';
-        $fileWithModelPath	= "application/models/" . $fileWithModel;
+        $fileWithModelPath	= "app/models/" . $fileWithModel;
         if (file_exists($fileWithModelPath))
         {
             include $fileWithModelPath;
         }
         $fileWithController = strtolower($controllerName) . '.php';
-        $fileWithControllerPath = "application/controllers/" . $fileWithController;
+        $fileWithControllerPath = "app/controllers/" . $fileWithController;
         if (file_exists($fileWithControllerPath))
         {
             include $fileWithControllerPath;
